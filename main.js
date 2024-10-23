@@ -26,8 +26,8 @@ async function displayData() {
         <h3>${title}</h3>
         <span class="id">${id}</span> <span class="price">${price}</span>
         <p class="desc">${description}</p>
-        <div class="rating">
-        ${rating}
+        <div class="rating">Rating:
+        ${rating.rate}
         </div>
         </div>
         </div>
